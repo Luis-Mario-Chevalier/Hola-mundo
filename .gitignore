@@ -1,0 +1,10 @@
+# Ignorar carpetas de usuario y del sistema
+/AppData/
+/Documents/
+/Downloads/
+/Configuración local/
+/Cookies/
+/Datos de programa/
+/OneDrive/
+/ntuser.dat*
+*.log
