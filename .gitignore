@@ -1,0 +1,30 @@
+# Ignorar archivos y carpetas de sistema
+/Configuración local/
+/Cookies/
+/Datos de programa/
+/Entorno de red/
+/Impresoras/
+/Menú Inicio/
+/Mis documentos/
+/Plantillas/
+/Reciente/
+/SendTo/
+/NTUSER.DAT*
+/AppData/
+/Downloads/
+/Favorites/
+/OneDrive/
+/ntuser*
+/Videos/
+/Music/
+/Documents/
+/Pictures/
+
+# Ignorar carpetas específicas del sistema
+.android/
+.bash_history
+.dotnet/
+.vscode/
+
+node_modules/
+
