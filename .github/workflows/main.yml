@@ -1,4 +1,4 @@
-name: Node.js CI/CD
+name: CI/CD Pipeline
 
 on:
   push:
@@ -10,22 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Chequear el código
       - name: Check out code
         uses: actions/checkout@v3
 
+      # 2. Configurar Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Especifica la versión de Node.js
+          node-version: '20'  # Especifica la versión de Node.js que deseas usar
 
+      # 3. Instalar dependencias
       - name: Install dependencies
         run: npm install
 
+      # 4. Ejecutar pruebas
       - name: Run tests
         run: npm test
 
+      # 5. Desplegar si las pruebas pasan
       - name: Deploy to Production
         run: |
           echo "Desplegando la aplicación..."
           # Comando para desplegar tu aplicación
-
