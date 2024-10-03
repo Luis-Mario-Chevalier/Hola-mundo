@@ -20,6 +20,10 @@
 /Documents/
 /Pictures/
 
+/.vscode/
+/AppData/
+/Downloads/
+
 # Ignorar carpetas específicas del sistema
 .android/
 .bash_history
