@@ -20,15 +20,11 @@
 /Documents/
 /Pictures/
 
-/.vscode/
-/AppData/
-/Downloads/
-
 # Ignorar carpetas específicas del sistema
 .android/
 .bash_history
 .dotnet/
-.vscode/
+/.vscode/
 
+# Ignorar dependencias de Node.js
 node_modules/
-
