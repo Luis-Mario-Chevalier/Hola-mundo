@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignorar carpetas de usuario y del sistema
 /AppData/
 /Documents/
@@ -8,3 +9,39 @@
 /OneDrive/
 /ntuser.dat*
 *.log
+=======
+# Ignorar archivos y carpetas de sistema
+/Configuración local/
+/Cookies/
+/Datos de programa/
+/Entorno de red/
+/Impresoras/
+/Menú Inicio/
+/Mis documentos/
+/Plantillas/
+/Reciente/
+/SendTo/
+/NTUSER.DAT*
+/AppData/
+/Downloads/
+/Favorites/
+/OneDrive/
+/ntuser*
+/Videos/
+/Music/
+/Documents/
+/Pictures/
+
+/.vscode/
+/AppData/
+/Downloads/
+
+# Ignorar carpetas específicas del sistema
+.android/
+.bash_history
+.dotnet/
+.vscode/
+
+node_modules/
+
+>>>>>>> 450ffcae634757fb28e56e666da1deaa56eac5ab
