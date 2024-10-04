@@ -32,16 +32,16 @@
 /Documents/
 /Pictures/
 
-/.vscode/
-/AppData/
-/Downloads/
-
 # Ignorar carpetas específicas del sistema
 .android/
 .bash_history
 .dotnet/
-.vscode/
+/.vscode/
 
+# Ignorar dependencias de Node.js
 node_modules/
+<<<<<<< HEAD
 
 >>>>>>> 450ffcae634757fb28e56e666da1deaa56eac5ab
+=======
+>>>>>>> 2dca1397fe7f0b8aca2e21b42665ee4419a53953
